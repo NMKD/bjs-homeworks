@@ -7,8 +7,6 @@
 
 function averageMark(a, g, p) {
 	
-    // реализуйте здесь задание №1
-	
 	let algebra = a;
 	let geography = g;
 	let physics = p;
@@ -19,9 +17,9 @@ function averageMark(a, g, p) {
 
 function sayHello(userName) {
 	
-    // реализуйте здесь задание №2
+    let myName = userName;
     
-	return // ваш ответ;
+	return `Привет, мир! Меня зовут ${myName}`;
 }
 
 function calculateFormula() {
