@@ -9,10 +9,10 @@ function averageMark(a, g, p) {
 	
     // реализуйте здесь задание №1
 	
-	let algebra = 5;
-	let geography = 4;
-	let physics = 3;
-	let averageMark = (a + b + c) / 3;
+	let algebra = a;
+	let geography = g;
+	let physics = p;
+	let averageMark = (a + g + p) / 3;
 	
 	return averageMark;
 }
